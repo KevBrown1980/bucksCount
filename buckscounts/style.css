@@ -1,0 +1,50 @@
+/* 
+  colors
+    white #f2f0eb;
+    black #27251F
+    lightgreen #00754a
+    extralightgreen #d4e9e2
+    darkgreen #1e3932
+*/
+* {
+  /* color: #27251F; */
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+/* your code */
+
+body{
+  background-color: #1e3932;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  font-size: 2rem;
+  color: #f2f0eb;
+  background-color: #1e3932;
+}
+
+header{
+  background-color: grey;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+section{
+  border: solid #f2f0eb 2px;
+  padding: 15px;
+}
+
+section div {
+  background-color: #00754a;
+  margin-bottom: 7px;
+  padding: 5px;
+  text-align: right;
+}
